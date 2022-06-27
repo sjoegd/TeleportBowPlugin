@@ -1,0 +1,9 @@
+name: TeleportBowPlugin
+version: '${project.version}'
+main: me.sjoegd.teleportbowplugin.TeleportBowPlugin
+api-version: 1.19
+authors: [ Sjoegd ]
+description: Bow that teleports user
+commands:
+  teleportbow:
+    description: gives teleportbow
