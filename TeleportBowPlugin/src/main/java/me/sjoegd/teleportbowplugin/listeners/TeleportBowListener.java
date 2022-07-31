@@ -15,7 +15,6 @@ public class TeleportBowListener implements Listener {
         if (e.getEntity().getShooter() instanceof Player p) {
             Inventory inventory = p.getInventory();
             if(inventory.contains(new TeleportBow().giveTeleportBow())) {
-                System.out.println("Debug has teleport bow");
                 p.teleport(e.getEntity().getLocation());
             }
             else {
